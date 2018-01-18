@@ -1,0 +1,13 @@
+
+url: https://10.20.95.85/GeneralSetup/#Screen15
+ip_address: 10.20.95.85
+log_directory: /home/ubunto04/tmp/
+tls_version_from: 7.MB 331.37
+tls_version_to: 2.CA 330.5
+tls_user_id: guest
+tls_password: guest
+admin_id: admin10
+admin_password: admin10
+operator_id: oprtr10
+operator_password: oprtr10
+local_database_path: /home/sandaya/.tls/db/BIR_FakeDim/

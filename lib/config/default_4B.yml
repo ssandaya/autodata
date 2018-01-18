@@ -1,0 +1,12 @@
+
+url: https://10.20.95.65/GeneralSetup/#Screen15
+ip_address: 10.20.95.65
+log_directory: C:/tmp/
+tls_version_from: 7.HB 331.28
+tls_version_to: 7.HB 331.29
+tls_user_id:  guest
+tls_password: guest
+admin_id: admin10
+admin_password: admin10
+operator_id: oprtr10
+operator_password: oprtr10

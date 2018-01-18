@@ -1,0 +1,2 @@
+/usr/bin/sshpass -f /home/simulate/.ssh/sshpass.txt ssh -v -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null" root@${console_dhcp_ip} '[ -d /mnt/usb ] &&  ( mount /dev/sda1 /mnt/usb; cd /mnt/usb; rm -rf *; gzip -dcv /tmp/thumbdrive.tar.gz | (cd /mnt/usb && tar x --no-same-owner -f -); sleep 30; umount /mnt/usb; sleep 30; /opt/maintserver/bin/mount-upgrade-thumb.sh; cd /mnt/usb; gzip -dcv /tmp/thumbdrive.tar.gz | (cd /mnt/usb && tar x --no-same-owner -f -); sleep 30; cd; /opt/maintserver/bin/unmount-upgrade-thumb.sh; sleep 10)'
+fi

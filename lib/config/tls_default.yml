@@ -1,0 +1,13 @@
+url: https://10.20.95.167/GeneralSetup/#Screen15
+ip_address: 10.20.95.167
+log_directory: /home/jenkins/tmp/
+tls_version_from: 9.CA 532.3
+tls_version_to: 9.EA 532.4
+tls_user_id: guest
+tls_password: guest
+admin_id: admin10
+admin_password: admin10
+operator_id: oprtr10
+operator_password: oprtr10
+
+
